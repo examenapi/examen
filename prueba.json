@@ -1,6 +1,6 @@
 {
-  "EDAans":[
-    { "skewed": {
+  
+    "skewed": {
     "Descr": "How to the left is the tail of the distribution.",
     "Coeficiente":"Uses Fisher-Pearson Coefficient (AsF)",
     "SkewVal": "AsF > 0 (+)\nAsF = 0 (neutral)\nAsF > 0 (-)\n",
@@ -21,8 +21,5 @@
     "Q-Q PLOT":"It is used to see how well a particular sample follows a particular theoretical distribution"
   },
   "Q-Q-Plots_code":"def qq_plots(df,variable): plt.figure(figsize = (15,6)) plt.subplot(1,2,1) df[variable].hist() plt.subplot(1,2,2) stats.probplot(df[variable], dist = 'norm', plot = pylab) plt.show()"
-    }
-    ]
-  
-  
+      
 }
